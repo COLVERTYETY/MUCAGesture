@@ -14,6 +14,12 @@ in this repo you can find various gesture recognition models for the MUCA datase
 | slideright| ![slideright](/GIFS/slideright.gif) |
 | longtouch| ![longtouch](/GIFS/longtouch.gif) |
 
+## current model
+
+we compare the derivative of the x,y coordinates of the greatest value of each frame. the result is the following mean derivative per class:
+
+![pictures of mean derivatives](/GIFS/mean_derivatives.png)
+
 ## current accuracy:
 
 
