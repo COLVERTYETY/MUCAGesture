@@ -1,0 +1,3 @@
+[submodule "MucaMoveDataset"]
+	path = MucaMoveDataset
+	url = git@github.com:electron260/MucaMoveDataset.git
