@@ -16,7 +16,9 @@ in this repo you can find various gesture recognition models for the MUCA datase
 
 ## current model
 
-we compare the derivative of the x,y coordinates of the greatest value of each frame. the result is the following mean derivative per class:
+we compare the derivative of the x,y coordinates of chosen points of interest. the points of interest are chosen by performing floodflilling on the image and then choosing the points with the highest value.
+
+The result is the following mean derivative per class:
 
 ![pictures of mean derivatives](/GIFS/mean_derivatives.png)
 
@@ -25,11 +27,11 @@ we compare the derivative of the x,y coordinates of the greatest value of each f
 
 | label | accuracy |
 | --- | --- |
-| slidedown | 0.921739 |
-| slideright | 0.711443 |
-| longtouch | 0.674157 |
-| slideup | 0.819277 |
-| slideleft | 0.724409 |
+| slidedown | 0.878261 |
+| slideright | 0.835821 |
+| longtouch | 0.966292 |
+| slideup | 0.753012 |
+| slideleft | 0.708661 |
 
 
 ## TODO
